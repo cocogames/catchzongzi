@@ -34,3 +34,30 @@ gulp
     at asyncRunner (/Users/peterzhang/dev/github/catchzongzi/node_modules/_async-done@1.3.2@async-done/index.js:55:18)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)
 [13:34:50] 'default' errored after 45 ms
+
+
+gulp
+[13:40:05] Using gulpfile ~/dev/github/catchzongzi/gulpfile.js
+[13:40:05] Starting 'default'...
+[13:40:05] Starting 'clean'...
+[13:40:05] Finished 'clean' after 8.99 ms
+[13:40:05] Starting 'build:asset'...
+[13:40:05] Starting 'build:compass'...
+[13:40:05] Starting 'build:js'...
+[13:40:05] Starting 'watch'...
+[13:40:05] Starting '<anonymous>'...
+打包完成
+开发模式
+[13:40:05] 'build:asset' errored after 59 ms
+[13:40:05] Error: File not found with singular glob: /Users/peterzhang/dev/github/catchzongzi/bower_components/zepto/zepto.min.js (if this was purposeful, use `allowEmpty` option)
+    at Glob.<anonymous> (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob-stream@6.1.0@glob-stream/readable.js:84:17)
+    at Object.onceWrapper (events.js:291:20)
+    at Glob.emit (events.js:203:13)
+    at Glob.EventEmitter.emit (domain.js:471:20)
+    at Glob._finish (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:195:8)
+    at done (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:180:14)
+    at Glob._processSimple2 (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:686:12)
+    at /Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:674:10
+    at Glob._stat2 (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:770:12)
+    at lstatcb_ (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:762:12)
+[13:40:05] 'default' errored after 72 ms
