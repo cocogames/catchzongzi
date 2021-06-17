@@ -18,7 +18,6 @@ var filepath = {
         path: "./sass/index.scss"
     },
     css: "./css",
-    js: "./js",
     asset: {
         js: [
             "./bower_components/zepto/zepto.min.js",
@@ -27,7 +26,8 @@ var filepath = {
             "./bower_components/create-js/SoundJS/lib/soundjs-0.6.2.min.js",
             "./bower_components/tween.js/src/Tween.js"
         ]
-    }
+    },
+    js: "./js"
 }
 
 // 清理文件
