@@ -92,3 +92,5 @@ gem install compass
 
 find /usr/local/Cellar/ -name "compass"
 /usr/local/lib/ruby/gems/2.7.0/bin/compass -v 
+
+gulp build:js
