@@ -85,3 +85,6 @@ bower download      https://github.com/akptp/create-js/archive/master.tar.gz
 "./bower_components/create-js/EaselJS/lib/easeljs-0.8.2.min.js",
 "./bower_components/create-js/SoundJS/lib/soundjs-0.6.2.min.js",
 "./bower_components/tween.js/src/Tween.js"
+
+
+gem install compass
