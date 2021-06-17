@@ -49,17 +49,17 @@ gulp
 打包完成
 开发模式
 [13:40:05] 'build:asset' errored after 59 ms
-[13:40:05] Error: File not found with singular glob: /Users/peterzhang/dev/github/catchzongzi/bower_components/zepto/zepto.min.js (if this was purposeful, use `allowEmpty` option)
-    at Glob.<anonymous> (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob-stream@6.1.0@glob-stream/readable.js:84:17)
+[13:40:05] Error: File not found with singular glob: catchzongzi/bower_components/zepto/zepto.min.js (if this was purposeful, use `allowEmpty` option)
+    at Glob.<anonymous> (catchzongzi/node_modules/_glob-stream@6.1.0@glob-stream/readable.js:84:17)
     at Object.onceWrapper (events.js:291:20)
     at Glob.emit (events.js:203:13)
     at Glob.EventEmitter.emit (domain.js:471:20)
-    at Glob._finish (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:195:8)
-    at done (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:180:14)
-    at Glob._processSimple2 (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:686:12)
-    at /Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:674:10
-    at Glob._stat2 (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:770:12)
-    at lstatcb_ (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:762:12)
+    at Glob._finish (catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:195:8)
+    at done (catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:180:14)
+    at Glob._processSimple2 (catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:686:12)
+    at catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:674:10
+    at Glob._stat2 (catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:770:12)
+    at lstatcb_ (catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:762:12)
 [13:40:05] 'default' errored after 72 ms
 
 
