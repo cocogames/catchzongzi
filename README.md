@@ -88,3 +88,7 @@ bower download      https://github.com/akptp/create-js/archive/master.tar.gz
 
 
 gem install compass
+
+
+find /usr/local/Cellar/ -name "compass"
+/usr/local/lib/ruby/gems/2.7.0/bin/compass -v 
