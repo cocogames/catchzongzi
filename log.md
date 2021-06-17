@@ -1,4 +1,4 @@
-[13:16:33] Using gulpfile ~/dev/github/catchzongzi/gulpfile.js
+[13:16:33] Using gulpfile catchzongzi/gulpfile.js
 [13:16:33] Starting 'default'...
 [13:16:33] 'default' errored after 14 ms
 [13:16:33] TypeError: gulp.hasTask is not a function
@@ -15,7 +15,7 @@
 
 
 gulp        
-[13:34:50] Using gulpfile ~/dev/github/catchzongzi/gulpfile.js
+[13:34:50] Using gulpfile catchzongzi/gulpfile.js
 [13:34:50] Starting 'default'...
 [13:34:50] Starting 'clean'...
 [13:34:50] Finished 'clean' after 18 ms
@@ -37,7 +37,7 @@ gulp
 
 
 gulp
-[13:40:05] Using gulpfile ~/dev/github/catchzongzi/gulpfile.js
+[13:40:05] Using gulpfile catchzongzi/gulpfile.js
 [13:40:05] Starting 'default'...
 [13:40:05] Starting 'clean'...
 [13:40:05] Finished 'clean' after 8.99 ms
@@ -108,11 +108,11 @@ fatal: early EOF
 
 
 bower cache clean
-bower deleted       Cached package zepto: /Users/peterzhang/.cache/bower/packages/edc644c2652aa448334dce458a66437c/1.1.6
-bower deleted       Cached package tween.js: /Users/peterzhang/.cache/bower/packages/a6bab2046df1d0161428ca42f958ffdd/16.3.5
-bower deleted       Cached package three.js: /Users/peterzhang/.cache/bower/packages/ee756206a8d4a72d4c2b7beb43560039/r67
-bower deleted       Cached package dat-gui: /Users/peterzhang/.cache/bower/packages/da287682f2f93d52b49a5cdf9073c033/0.5.0
-bower deleted       Cached package tracking: /Users/peterzhang/.cache/bower/packages/7cc628052aff18f8c52a77feaf6db401/1.1.3
+bower deleted       Cached package zepto: packages/edc644c2652aa448334dce458a66437c/1.1.6
+bower deleted       Cached package tween.js: packages/a6bab2046df1d0161428ca42f958ffdd/16.3.5
+bower deleted       Cached package three.js: packages/ee756206a8d4a72d4c2b7beb43560039/r67
+bower deleted       Cached package dat-gui: packages/da287682f2f93d52b49a5cdf9073c033/0.5.0
+bower deleted       Cached package tracking: packages/7cc628052aff18f8c52a77feaf6db401/1.1.3
 fatal: index-pack failed
 
 
