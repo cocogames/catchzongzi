@@ -22,3 +22,12 @@ demo需要微信授权，请用微信扫描打开。
 ##Issues
 [Report a Problem](https://github.com/MJPiero/catchzongzi/issues)
 
+
+gulp --tasks
+[13:15:42] Tasks for ~/dev/github/catchzongzi/gulpfile.js
+[13:15:42] ├── clean
+[13:15:42] ├── build:asset
+[13:15:42] ├── build:compass
+[13:15:42] ├── build:js
+[13:15:42] ├── watch
+[13:15:42] └── default
