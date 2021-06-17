@@ -69,3 +69,19 @@ remote: Enumerating objects: 741, done.
 remote: Total 741 (delta 0), reused 0 (delta 0), pack-reused 741
 Receiving objects: 100% (741/741), 19.91 MiB | 20.00 KiB/s, done.
 Resolving deltas: 100% (128/128), done.
+
+bower install
+bower not-cached    https://github.com/components/zepto.git#~1.1.6
+bower resolve       https://github.com/components/zepto.git#~1.1.6
+bower not-cached    https://github.com/akptp/create-js.git#*
+bower resolve       https://github.com/akptp/create-js.git#*
+bower cached        https://github.com/sole/tween.js.git#16.3.5
+bower validate      16.3.5 against https://github.com/sole/tween.js.git#~16.3.4
+bower download      https://github.com/akptp/create-js/archive/master.tar.gz
+
+
+"./bower_components/zepto/zepto.min.js",
+"./bower_components/create-js/PreloadJS/lib/preloadjs-0.6.2.min.js",
+"./bower_components/create-js/EaselJS/lib/easeljs-0.8.2.min.js",
+"./bower_components/create-js/SoundJS/lib/soundjs-0.6.2.min.js",
+"./bower_components/tween.js/src/Tween.js"
