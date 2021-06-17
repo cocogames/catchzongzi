@@ -8,8 +8,7 @@ var gulp = require("gulp"),
     uglify = require('gulp-uglify'),
     rename = require("gulp-rename"),
     del = require("del"),
-    template = require("gulp-template"),
-    runSequence = require('run-sequence');
+    template = require("gulp-template");
 
 var filepath = {
     build: "./build",
@@ -80,11 +79,7 @@ gulp.task( 'watch',function () {
     ], ['build:js']);
 });
 
-gulp.task('default',function () {
-    runSequence( 'clean',
-        ['build:asset','build:compass','build:js','watch'],
-        function () {
-            console.log('打包完成');
-            console.log('开发模式');
-        });
-});
+gulp.task('default', gulp.series('clean', gulp.parallel('build:asset', 'build:compass', 'build:js', 'watch', function () {
+    console.log('打包完成');
+    console.log('开发模式');
+})));

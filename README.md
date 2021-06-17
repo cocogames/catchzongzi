@@ -31,3 +31,32 @@ gulp --tasks
 [13:15:42] ├── build:js
 [13:15:42] ├── watch
 [13:15:42] └── default
+
+
+Gulp v4 has breaking changes and that creates some problems with run-sequence package.
+
+As I do not have your gulpfile.js, all I can say upto this point is to try to use Gulp4's gulp.series and gulp.parallel with your gulp tasks, instead of run-sequence.
+
+you may receive an error of the sort of like 'task1, 'task2' could not be completed', in the function of the task, accept the done callback and call the callback in your tasks at the end of the function
+
+Example:
+
+gulp.task('task1', gulp.series('task1-1', function (done) {
+   // task 1 code here
+    done();
+}));
+
+gulp.task('task2', gulp.series('task2-1', function (done) {
+   // task 2 code here
+    done();
+}));
+
+// Similarly Tasks 3 and 4 Code here
+
+gulp.task('main', gulp.series('task1', 'task2', 'task3', 'task4', function (done) {
+    done();
+}));
+
+
+
+https://www.gulpjs.com.cn/docs/api/parallel/
