@@ -92,3 +92,17 @@ bower ECMDERR       Failed to execute "git clone https://github.com/akptp/create
 Additional error details:
 Cloning into '.'...
 fatal: unable to access 'https://github.com/akptp/create-js.git/': Failed to connect to github.com port 443: Operation timed out
+
+
+
+
+bower ECMDERR       Failed to execute "git clone https://github.com/akptp/create-js.git -b master --progress . --depth 1", exit code of #128 Cloning into '.'... remote: Enumerating objects: 736, done.         rfatal: the remote end hung up unexpectedly fatal: early EOF fatal: index-pack failed1/736)(1/586)        
+
+Additional error details:
+Cloning into '.'...
+remote: Enumerating objects: 736, done.        
+remote: Counting objects: 100% (736/736), done.        
+remote: Compressing objects: 100% (586/586), done.        
+fatal: the remote end hung up unexpectedlyB | 8.00 KiB/s    
+fatal: early EOF
+fatal: index-pack failed
