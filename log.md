@@ -123,3 +123,35 @@ Details:
     domainEmitter: [object Object]
     domainThrown: false
 [15:23:36] 'default' errored after 121 ms
+
+
+
+
+gem install compass
+Fetching compass-import-once-1.0.5.gem
+Fetching chunky_png-1.4.0.gem
+Fetching sass-3.4.25.gem
+Fetching compass-1.0.3.gem
+Fetching multi_json-1.15.0.gem
+Fetching compass-core-1.0.3.gem
+Successfully installed chunky_png-1.4.0
+Successfully installed sass-3.4.25
+Successfully installed compass-import-once-1.0.5
+Successfully installed multi_json-1.15.0
+Successfully installed compass-core-1.0.3
+    Compass is charityware. If you love it, please donate on our behalf at http://umdf.org/compass Thanks!
+Successfully installed compass-1.0.3
+Parsing documentation for chunky_png-1.4.0
+Installing ri documentation for chunky_png-1.4.0
+Parsing documentation for sass-3.4.25
+Installing ri documentation for sass-3.4.25
+Parsing documentation for compass-import-once-1.0.5
+Installing ri documentation for compass-import-once-1.0.5
+Parsing documentation for multi_json-1.15.0
+Installing ri documentation for multi_json-1.15.0
+Parsing documentation for compass-core-1.0.3
+Installing ri documentation for compass-core-1.0.3
+Parsing documentation for compass-1.0.3
+Installing ri documentation for compass-1.0.3
+Done installing documentation for chunky_png, sass, compass-import-once, multi_json, compass-core, compass after 8 seconds
+6 gems installed
