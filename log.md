@@ -61,3 +61,34 @@ gulp
     at Glob._stat2 (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:770:12)
     at lstatcb_ (/Users/peterzhang/dev/github/catchzongzi/node_modules/_glob@7.1.7@glob/glob.js:762:12)
 [13:40:05] 'default' errored after 72 ms
+
+
+
+
+bower install
+bower not-cached    https://github.com/components/zepto.git#~1.1.6
+bower resolve       https://github.com/components/zepto.git#~1.1.6
+bower retry         Request to https://bower.herokuapp.com/packages/tweenjs failed with ECONNRESET, retrying in 1.4s
+bower retry         Request to https://bower.herokuapp.com/packages/create-js failed with ECONNRESET, retrying in 1.9s
+bower not-cached    https://github.com/sole/tween.js.git#~16.3.4
+bower resolve       https://github.com/sole/tween.js.git#~16.3.4
+bower not-cached    https://github.com/akptp/create-js.git#*
+bower resolve       https://github.com/akptp/create-js.git#*
+bower checkout      create-js#master
+bower checkout      tween.js#v16.3.5
+bower checkout      zepto#1.1.6
+bower resolved      https://github.com/components/zepto.git#1.1.6
+bower progress      tween.js#~16.3.4 remote: Counting objects:   1% (1/71)
+bower progress      tween.js#~16.3.4 remote: Compressing objects:  90% (46/51)
+bower progress      tween.js#~16.3.4 remote: Compressing objects:  92% (47/51)
+bower progress      tween.js#~16.3.4 remote: Compressing objects:  94% (48/51)
+bower progress      tween.js#~16.3.4 remote: Compressing objects:  96% (49/51)
+bower progress      tween.js#~16.3.4 remote: Compressing objects:  98% (50/51)
+bower progress      tween.js#~16.3.4 remote: Compressing objects: 100% (51/51)
+bower progress      tween.js#~16.3.4 remote: Compressing objects: 100% (51/51), done.
+bower resolved      https://github.com/sole/tween.js.git#16.3.5
+bower ECMDERR       Failed to execute "git clone https://github.com/akptp/create-js.git -b master --progress . --depth 1", exit code of #128 Cloning into '.'... fatal: unable to access 'https://github.com/akptp/create-js.git/': Failed to connect to github.com port 443: Operation timed out
+
+Additional error details:
+Cloning into '.'...
+fatal: unable to access 'https://github.com/akptp/create-js.git/': Failed to connect to github.com port 443: Operation timed out
