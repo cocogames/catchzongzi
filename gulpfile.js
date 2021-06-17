@@ -73,10 +73,10 @@ gulp.task('build:js',function () {
 gulp.task( 'watch',function () {
     gulp.watch([
         filepath.sass.root + '/*'
-    ], ['build:compass']);
+    ], gulp.series('build:compass'));
     gulp.watch([
         filepath.js + '/**/*'
-    ], ['build:js']);
+    ], gulp.series('build:js'));
 });
 
 gulp.task('default', gulp.series('clean', gulp.parallel('build:asset', 'build:compass', 'build:js', 'watch', function () {
