@@ -114,3 +114,12 @@ bower deleted       Cached package three.js: /Users/peterzhang/.cache/bower/pack
 bower deleted       Cached package dat-gui: /Users/peterzhang/.cache/bower/packages/da287682f2f93d52b49a5cdf9073c033/0.5.0
 bower deleted       Cached package tracking: /Users/peterzhang/.cache/bower/packages/7cc628052aff18f8c52a77feaf6db401/1.1.3
 fatal: index-pack failed
+
+
+[15:23:36] Error in plugin 'gulp-compass'
+Message:
+    You need to have Ruby and Compass installed and in your system PATH for this task to work.
+Details:
+    domainEmitter: [object Object]
+    domainThrown: false
+[15:23:36] 'default' errored after 121 ms
